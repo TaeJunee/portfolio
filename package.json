@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/t-junne/portfolio#readme",
   "devDependencies": {
+    "@types/three": "^0.150.0",
     "esbuild": "^0.17.14",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "three": "^0.150.1"
   }
 }
