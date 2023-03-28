@@ -1,0 +1,28 @@
+{
+  "name": "june-portfolio",
+  "description": "포트폴리오용 웹사이트입니다.",
+  "version": "0.0.1",
+  "main": "index.{ts,js}",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-junne/portfolio.git"
+  },
+  "author": "JUNE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-junne/portfolio/issues"
+  },
+  "homepage": "https://github.com/t-junne/portfolio#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.14",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.2"
+  }
+}
