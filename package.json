@@ -3,8 +3,11 @@
   "description": "포트폴리오용 웹사이트입니다.",
   "version": "0.0.1",
   "main": "index.{ts,js}",
+  "type": "module",
   "scripts": {
-    "build": "node esbuild.config.js",
+    "format" : "prettier --write src/**/*.ts",
+    "build": "node build.js",
+    "watch": "node build.js --watch",
     "test": "test"
   },
   "repository": {
@@ -17,6 +20,9 @@
     "url": "https://github.com/t-junne/portfolio/issues"
   },
   "homepage": "https://github.com/t-junne/portfolio#readme",
+  "dependencies": {
+    "three": "^0.150.1"
+  },
   "devDependencies": {
     "@types/three": "^0.150.0",
     "esbuild": "^0.17.14",
@@ -25,8 +31,5 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.8.7",
     "typescript": "^5.0.2"
-  },
-  "dependencies": {
-    "three": "^0.150.1"
   }
 }
